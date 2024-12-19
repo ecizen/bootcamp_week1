@@ -1,0 +1,102 @@
+/* mengatur defualt style keseluruhan */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ini bagian body style */
+body {
+  height: 100vh;
+}
+
+/* bagian logo style disini */
+nav h1 {
+  color: white;
+}
+
+/* bagian section */
+section {
+  height: 100%;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100vw;
+}
+
+/* navbar styling */
+nav {
+  background-color: rgb(119, 0, 255);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* nav list */
+nav li {
+  display: inline;
+  margin-right: 15px;
+  list-style: none;
+}
+
+/* nav link */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* hover pointer */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section atau isi konten  */
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+/* section div */
+section div {
+  max-width: 45%;
+  text-align: center;
+}
+
+/* section heading1  nama*/
+section h1 {
+  font-size: 2em;
+  color: #343a40;
+}
+
+/* paragraf deskripsi */
+section p {
+  font-size: 1em;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+/* Gaya untuk gambar */
+section img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #343a40;
+  color: white;
+  font-size: 0.9em;
+}
